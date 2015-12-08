@@ -3,10 +3,6 @@ machine:
         version: 
             5.1.0
 
-dependencies:
-    pre: 
-        - npm install
-
 test:
     override:
         - node app.js
