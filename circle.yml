@@ -1,0 +1,12 @@
+machine:
+	ruby:
+		version:
+			2.2.2
+
+dependencies:
+	pre: 
+		- npm install electron-prebuilt -g
+
+test:
+	override:
+		- echo "Hello, world."
