@@ -9,4 +9,4 @@ dependencies:
 
 test:
     override:
-        - bash run.sh
+        - node app.js
