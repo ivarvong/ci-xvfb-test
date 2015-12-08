@@ -5,8 +5,8 @@ machine:
 
 dependencies:
     pre: 
-        - npm install electron-prebuilt -g
+        - npm install
 
 test:
     override:
-        - echo "Hello, world."
+        - bash run.sh
