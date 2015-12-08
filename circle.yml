@@ -1,12 +1,12 @@
 machine:
-	ruby:
-		version:
-			2.2.2
+    ruby:
+        version:
+            2.2.2
 
 dependencies:
-	pre: 
-		- npm install electron-prebuilt -g
+    pre: 
+        - npm install electron-prebuilt -g
 
 test:
-	override:
-		- echo "Hello, world."
+    override:
+        - echo "Hello, world."
