@@ -16,7 +16,7 @@ function *run() {
   var nightmare = Nightmare();
 
   var title = yield nightmare
-    .goto('https://www.themarshallproject.org/next-to-die')
+    .goto('https://www.themarshallproject.org')
     .screenshot(outputPath)
 
   yield nightmare.end();
